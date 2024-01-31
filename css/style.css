@@ -39,3 +39,11 @@ h1 {
 .square.fizz {
     background-color: red;
 }
+
+.square.buzz {
+    background-color: blue;
+}
+
+.square.fizzbuzz {
+    background-color: purple;
+}

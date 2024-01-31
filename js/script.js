@@ -20,9 +20,14 @@ for (let i = 1; i <= 100; i++) {
     // (IF) voglio che i multipli di 3 abbiano stampato "Fizz" al posto del numero
     if (i % 3 == 0) {
         squareElement.className += " fizz";
-    }
-}
 
-// (ELSE) voglio che i multipli di 5 abbiano stampato "Buzz"
-// (ELSE IF) voglio che sia i multipli di 3 che di 5 abbiano stampato "FizzBuzz"
-// (invertire ELSE con ELSE IF?)
+        // (ELSE IF) voglio che i multipli di 5 abbiano stampato "Buzz"
+    } else if (i % 5 == 0) {
+        squareElement.className += " buzz";
+
+        // (ELSE IF) voglio che sia i multipli di 3 che di 5 abbiano stampato "FizzBuzz"
+
+    }
+
+
+
