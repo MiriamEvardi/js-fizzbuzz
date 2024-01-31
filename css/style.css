@@ -6,6 +6,7 @@
 
 body {
     font-family: sans-serif;
+    background-color: rgb(255, 237, 247);
 }
 
 .container {
@@ -19,6 +20,7 @@ h1 {
     text-align: center;
     font-size: 80px;
     padding-bottom: 80px;
+    color: rgb(165, 165, 165);
 }
 
 #grid {
@@ -33,17 +35,5 @@ h1 {
     align-items: center;
     width: 140px;
     height: 140px;
-    border: solid 2px black;
-}
-
-.square.fizz {
-    background-color: red;
-}
-
-.square.buzz {
-    background-color: blue;
-}
-
-.square.fizz.buzz {
-    background-color: purple;
+    border: 4px white solid;
 }
