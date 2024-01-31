@@ -4,8 +4,25 @@
 
 
 //memorizzo la costante della griglia
-//creo il codice da ripetere da 1 a 100 e li stampo in pagina
-// (IF) voglio che i multipli di 3 abbiano stampato "Fizz" al posto del numero
+const gridElement = document.querySelector("#grid");
+
+//creo il codice da ripetere da 1 a 100 
+for (let i = 1; i <= 100; i++) {
+
+    //creo dei quadrati nell'HTML
+    const squareElement = document.createElement("div");
+
+    //li stampo in pagina
+    gridElement.append(squareElement);
+    squareElement.className = "square";
+    squareElement.innerHTML = i;
+
+    // (IF) voglio che i multipli di 3 abbiano stampato "Fizz" al posto del numero
+    if (i % 3 == 0) {
+        squareElement.className += " fizz";
+    }
+}
+
 // (ELSE) voglio che i multipli di 5 abbiano stampato "Buzz"
 // (ELSE IF) voglio che sia i multipli di 3 che di 5 abbiano stampato "FizzBuzz"
 // (invertire ELSE con ELSE IF?)
