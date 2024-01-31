@@ -33,7 +33,7 @@ h1 {
     align-items: center;
     width: 140px;
     height: 140px;
-    border: solid 2px purple;
+    border: solid 2px black;
 }
 
 .square.fizz {
@@ -44,6 +44,6 @@ h1 {
     background-color: blue;
 }
 
-.square.fizzbuzz {
+.square.fizz.buzz {
     background-color: purple;
 }
